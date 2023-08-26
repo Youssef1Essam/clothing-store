@@ -1,0 +1,95 @@
+* {
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none !important;
+    text-decoration: none !important;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to left,rgb(29, 35, 42) ,rgb(0, 0, 0));
+}
+
+
+:root {
+    --text-color:#44545C;
+    --main-color: #7CA4D4;
+    --white-color:#E9EAEB;
+    --four-color:#647C94;
+    --last-color:#707874;
+}
+
+
+.logo {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 1%;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.logo span {
+    color: var(--main-color);
+}
+
+
+
+h1 {
+    color: var(--main-color);
+}
+
+div {
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
+    border: 3px outset var(--main-color);
+    border-radius: 15px;
+}
+
+input {
+    margin: 15px;
+    padding: 10px;
+    border: 2px outset var(--main-color);
+    border-radius: 8px;
+    outline: none;
+    border-right: none;
+    border-left: none;
+}
+
+
+a {
+    text-decoration: underline;
+    color: var(--last-color);
+}
+
+a:visited:not(.HA) {
+    color:blue;
+}
+
+a:hover:not(.HA) {
+    color: red;
+}
+.HA{
+    color: var(--main-color);
+}
+.SignUp{
+    width: 220px;
+    background-color: var(--main-color);
+}
+.SignUp:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: var(--white-color);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    cursor: pointer;
+}
