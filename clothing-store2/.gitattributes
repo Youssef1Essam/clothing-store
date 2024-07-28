@@ -1,0 +1,3 @@
+# Ignore all Hack files
+hack/* linguist-vendored
+*.hack linguist-vendored
